@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&family=Oxygen&family=Quicksand:wght@700&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+h1{
+    margin:10px;
+    padding:10px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+div{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+section{
+    width: 90%;
+    padding-left:10px;
+    padding-bottom:10px;
+    border:1px solid black;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    background-color: gray;
+}
+
+section h2{
+    position: absolute;
+    top:0;
+    right: 0;
+    border:1px solid black;
+    padding:5px;
+    width:40%;
+    text-align: center;
+    font-size: 1.7rem;
+    /* height:30%; */
+}
+
+
+.sec1 h2{
+    background-color: palevioletred;
+}
+
+.sec2 h2{
+    background-color:crimson;
+}
+
+.sec3 h2{
+    background-color: blanchedalmond;
+}
+
+
+section p{
+    margin-top:50px;
+    padding:10px;
+    font-size: 1.1rem;
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .sec1{
+        float: left;
+        width:37.5%;
+        margin-left:10%;
+        margin-right:2.5%;
+        margin-bottom: 20px;
+    }
+    .sec2{
+        float: left;
+        width:37.5%;
+        margin-left:2.5%;
+        margin-right:10%;
+        margin-bottom: 20px;
+    }
+    .sec3{
+        clear:both;
+        width:80%;
+    }
+}
+
+@media (min-width:992px){
+    .sec1{
+        float: left;
+        width:30%;
+        /* padding:10px; */
+        margin-left:3%;
+        margin-right:2%;
+    }
+    .sec2{
+        float: left;
+        width:30%;
+        /* padding:10px; */
+    }
+    .sec3{
+        float: left;
+        width:30%;
+        /* padding:10px; */
+        margin-left:2%;
+        margin-right:3%;
+    }
+}
